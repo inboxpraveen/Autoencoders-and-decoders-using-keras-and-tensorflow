@@ -91,4 +91,6 @@ First thing we can do is image retrieval aka image search. We will give it an im
 To speed up retrieval process, one should use Locality Sensitive Hashing on top of encoded vectors. This [technique](https://erikbern.com/2015/07/04/benchmark-of-approximate-nearest-neighbor-libraries.html) can narrow down the potential nearest neighbours of our image in latent space (encoder code). We will caclulate nearest neighbours in brute force way for simplicity.
 
 
+### In the end, you will also be able to generate more images from an input image which are similar to each other.
+
 Play with it & Enjoy weird face expressions you can generate!!
